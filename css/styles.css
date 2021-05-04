@@ -1,0 +1,171 @@
+/* primary text color  #212121 */
+/* secondary text color #757575 */
+/* third color #2196F3 */
+/* background maim footer section #2F303A */
+/* auxiliary color #f5f4fa */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-color: #2196f3;
+  --auxiliary-color: #f5f4fa;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03;
+}
+ul li {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--primary-text-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.web {
+  color: var(--third-color);
+}
+.tab .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+.tab .link:hover,
+.tab .link:focus {
+  color: var(--third-color);
+}
+.tab .active {
+  color: var(--third-color);
+}
+.numbers {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+.numbers:hover,
+.numbers:focus {
+  color: var(--third-color);
+}
+.busines-section {
+}
+.busines-title {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06;
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--third-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+}
+
+.specifics-section {
+}
+
+.specifics-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.specifics-subtext {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.activity-section {
+}
+.item-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-section {
+  background-color: var(--auxiliary-color);
+}
+
+.name-players {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.profession {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.footer {
+  background-color: #2f303a;
+}
+.our-number {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.studio {
+  color: #ffffff;
+}
+/*  Порфолио */
+.filters {
+}
+.name-projects {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06;
+}
+.categories-projects {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.buttons-portfolio {
+  color: var(--primary-text-color);
+  background-color: var(--auxiliary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: none;
+}
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+  background-color: var(--third-color);
+  color: #ffffff;
+}
